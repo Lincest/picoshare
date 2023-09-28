@@ -4,6 +4,13 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+/* 居中的container */
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -23,7 +30,6 @@ form {
       margin-left: 0 !important;
       margin-right: 2rem;
     }
-
     @media screen and (min-width: 1024px) {
       .navbar-item {
         padding: 0;

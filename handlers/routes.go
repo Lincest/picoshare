@@ -27,7 +27,7 @@ func (s *Server) routes() {
 	// Add all the root-level static resources.
 	for _, f := range []string{
 		"/android-chrome-192x192.png",
-		"/android-chrome-384x384.png",
+		"/android-chrome-512x512.png",
 		"/apple-touch-icon.png",
 		"/browserconfig.xml",
 		"/favicon-16x16.png",
